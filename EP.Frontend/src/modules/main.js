@@ -4,7 +4,7 @@ import { displayScores } from "./gui";
 getAllscores().then(displayScores);
 
 let correctGuess = Math.floor(Math.random()*3)+1;
-console.log(correctGuess);
+//console.log(correctGuess);
 let points = 0;
 
 const formGuess = document.querySelector('form');
@@ -15,7 +15,7 @@ formGuess.addEventListener('submit', getUsersGuess)
 function getUsersGuess(event){
     event.preventDefault();
     const userGuess = document.querySelector('input').value;
-    console.log(userGuess);
+    //console.log(userGuess);
     formGuess.reset();
 
     const resultEl = document.querySelector('#resultEl');
@@ -34,7 +34,7 @@ function getUsersGuess(event){
         const userName = prompt("Ange ditt namn för att läggas till i highscore listan");
         
         
-        console.log(userName);
+        //console.log(userName);
 
         const scoresToAdd = {
             name: userName, 

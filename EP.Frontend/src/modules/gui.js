@@ -5,7 +5,7 @@ function displayScores(highScore){
     for(const score of highScore){
     
         const scoreDiv = document.createElement('div');
-        const nameEl = document.createElement('h2');
+        const nameEl = document.createElement('h3');
         const scoreEl = document.createElement('p');
 
         // Lägger till textinnehåll till elementen

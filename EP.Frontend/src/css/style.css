@@ -1,0 +1,28 @@
+body {
+    color: pink;
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 30px;
+}
+button{
+    background-color: lightpink;
+    margin: 5px;
+    padding: 10px 20px;
+}
+input{
+    width: 250px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    text-decoration: underline;
+}
